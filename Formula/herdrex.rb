@@ -1,8 +1,8 @@
 class Herdrex < Formula
   desc "Serve a Herdr server as a Rex host"
   homepage "https://github.com/elonnzhang/herdrex"
-  url "https://github.com/elonnzhang/herdrex/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "7519cfbf523baea7ae2071a602baad1367acbac9e97dc8c532857f423bbb812a"
+  url "https://github.com/elonnzhang/herdrex/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "30a1103056aa0b04f793f78a6a6a106af1adabfced563182df29f81548dd1cdf"
   head "https://github.com/elonnzhang/herdrex.git", branch: "main"
 
   depends_on "go" => :build
