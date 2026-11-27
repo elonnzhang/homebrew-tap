@@ -1,18 +1,18 @@
 class Re < Formula
   desc "Relaunch terminal programs in Rex with OSC 7577"
   homepage "https://github.com/elonnzhang/re-osc7577"
-  version "0.0.2"
+  version "0.0.3"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/elonnzhang/re-osc7577/releases/download/v0.0.2/re-v0.0.2-darwin-arm64.tar.gz"
-    sha256 "31ba003d5ec3b531af3cd1ba35dea8307f8fe0b51a8b1a6bc5c0bd6128050675"
+    url "https://github.com/elonnzhang/re-osc7577/releases/download/v0.0.3/re-v0.0.3-darwin-arm64.tar.gz"
+    sha256 "5334038ce7e28c0988daa98cc799b0a9e0c7183f9e1188353827a3eaf31c9a9b"
   end
 
   on_intel do
-    url "https://github.com/elonnzhang/re-osc7577/releases/download/v0.0.2/re-v0.0.2-darwin-amd64.tar.gz"
-    sha256 "b9cb11e8b981584c2e206351ccf7dee307a99af2cefb0bfd22fe3a5a47b922a9"
+    url "https://github.com/elonnzhang/re-osc7577/releases/download/v0.0.3/re-v0.0.3-darwin-amd64.tar.gz"
+    sha256 "760afc8fc4fd7a7549502221ecedbe2c13f0c96b344f3a3744f87e171b8da3bd"
   end
 
   def install
