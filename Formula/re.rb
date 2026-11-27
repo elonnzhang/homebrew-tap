@@ -20,7 +20,7 @@ class Re < Formula
   end
 
   test do
-    assert_equal "re smoke test", shell_output("#{bin}/re /bin/printf 're smoke test'")
+    assert_equal "re smoke test", shell_output("#{bin}/re /usr/bin/printf 're smoke test'")
     assert_match "re rex install", shell_output("#{bin}/re --help")
   end
 end
